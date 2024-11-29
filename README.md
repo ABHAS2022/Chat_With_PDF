@@ -1,5 +1,4 @@
 ```python
-"""
 # ChatPDF: Chat with Any PDF  
 
 ChatPDF is a tool that enables seamless interaction with PDF documents using AI. Upload a PDF to ask questions, extract information, and summarize content instantly, complete with references.  
@@ -90,7 +89,6 @@ We welcome contributions to improve the tool. Feel free to open issues or submit
 
 ## License  
 This project is licensed under the [MIT License](LICENSE).  
-"""
 ``` 
 
 This is now wrapped in a Python code block. You can still paste this into a `README.md` file, though it's formatted as a Python multi-line string for any Python-related context.
