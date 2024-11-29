@@ -1,49 +1,96 @@
-# ChatPDF
+```python
+"""
+# ChatPDF: Chat with Any PDF  
 
-Chat with any PDF. 
+ChatPDF is a tool that enables seamless interaction with PDF documents using AI. Upload a PDF to ask questions, extract information, and summarize content instantly, complete with references.  
 
-Easily upload the PDF documents you'd like to chat with. Instant answers. Ask questions, extract information, and summarize documents with AI. Sources included.
+---
 
-### Tutorial -> https://www.youtube.com/watch?v=3aRc1ijrTVs
+## Features  
+- **Query PDFs**: Extract key insights by asking questions directly.  
+- **Summarization**: Get instant summaries of large documents.  
+- **Contextual Analysis**: AI provides responses with referenced details from the PDF.  
+- **User-Friendly**: Accessible through command-line or a Streamlit-based web interface.  
 
-Create app like [ChatPDF](https://www.thesamur.ai/chatpdf-alternative) or [PDF.ai](https://pdf.ai/) in less than 10 lines of code
+---
 
-### Getting Started
+## Installation  
 
-Code is up now, ⭐ (Star) the repo to receive updates
+### 1. Clone the Repository  
+Clone the repository to your local machine:  
+```bash  
+git clone <repository_url>  
+cd ChatPDF  
+```  
 
-Replit and streamlit version coming soon
+### 2. Set Up the Environment  
+Create and activate a virtual environment:  
+```bash  
+# For Linux/macOS  
+python3 -m venv venv  
+source venv/bin/activate  
 
-Follow [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) on twitter for updates
+# For Windows  
+python -m venv venv  
+venv\Scripts\activate  
+```  
 
-Subscribe to https://www.youtube.com/@AnilChandraNaiduMatcha for more such video tutorials
+Install the required dependencies:  
+```bash  
+pip install -r requirements.txt  
+```  
 
-### How to run ? (Things might change based on OS)
+---
 
-1. Create a virtual environment in python https://docs.python.org/3/library/venv.html
+## Usage  
 
-2. Run "pip install -r requirements.txt"
+### 1. Set API Key  
+Add your OpenAI API key by setting the `OPENAI_API_KEY` environment variable:  
+```bash  
+export OPENAI_API_KEY=<your_openai_api_key>  
+```  
+On Windows:  
+```bash  
+set OPENAI_API_KEY=<your_openai_api_key>  
+```  
 
-3. Set OPENAI_API_KEY environment variable with your openai key
+### 2. Run the Application  
+Run the main script:  
+```bash  
+python main.py  
+```  
+Modify the code to load a different PDF or query if needed.  
 
-4. Run "python main.py"
+### 3. Use the Streamlit Interface (Optional)  
+For a graphical interface, run the Streamlit app:  
+```bash  
+streamlit run streamlitui.py  
+```  
 
-5. Change pdf file and query in code if you want to try with any other content
+Upload your PDF and interact with it directly in the web-based interface.  
 
-To run streamlit app, follow the steps run "streamlit run streamlitui.py"
+---
 
-Parts of the streamlit code is inspired from [here](https://github.com/viniciusarruda/chatpdf)
+## Future Enhancements  
+- Hosting options on Replit and Streamlit coming soon.  
+- Advanced PDF handling for complex file structures.  
+- Expanded NLP capabilities for more nuanced queries.  
 
-### Demo link
+---
 
-https://heybot.thesamur.ai/
+## Contribution  
+We welcome contributions to improve the tool. Feel free to open issues or submit pull requests.  
 
-### Also check
+---
 
-[Chat with Website code](https://github.com/Anil-matcha/Website-to-Chatbot)
+## Stay Updated  
+⭐ Star the repository to stay updated with the latest features and releases!  
 
-[Chat with CSV code](https://github.com/Anil-matcha/Chat-With-Excel)
+---
 
-[Chat with Youtube code](https://github.com/Anil-matcha/Chat-Youtube)
+## License  
+This project is licensed under the [MIT License](LICENSE).  
+"""
+``` 
 
-[ChatGPT in Discord code](https://github.com/Anil-matcha/DiscordGPT)
+This is now wrapped in a Python code block. You can still paste this into a `README.md` file, though it's formatted as a Python multi-line string for any Python-related context.
