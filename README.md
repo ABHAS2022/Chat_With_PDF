@@ -80,14 +80,3 @@ Upload your PDF and interact with it directly in the web-based interface.
 We welcome contributions to improve the tool. Feel free to open issues or submit pull requests.  
 
 ---
-
-## Stay Updated  
-⭐ Star the repository to stay updated with the latest features and releases!  
-
----
-
-## License  
-This project is licensed under the [MIT License](LICENSE).  
-``` 
-
-This is now wrapped in a Python code block. You can still paste this into a `README.md` file, though it's formatted as a Python multi-line string for any Python-related context.
