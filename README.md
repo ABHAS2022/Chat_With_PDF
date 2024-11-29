@@ -1,4 +1,3 @@
-```python
 # ChatPDF: Chat with Any PDF  
 
 ChatPDF is a tool that enables seamless interaction with PDF documents using AI. Upload a PDF to ask questions, extract information, and summarize content instantly, complete with references.  
